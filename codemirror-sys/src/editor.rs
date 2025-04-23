@@ -22,4 +22,6 @@ extern "C" {
     #[wasm_bindgen(method, js_name = on)]
     pub fn on(this: &Editor, event_name: &str, callback: &JsValue);
 
+    #[wasm_bindgen(method, js_name = setOption)]
+    pub fn set_option(this: &Editor, option: &str, value: &JsValue);
 }

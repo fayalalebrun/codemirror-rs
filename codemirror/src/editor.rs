@@ -38,6 +38,10 @@ impl Editor {
             callback(editor, change_obj)
         })
     }
+
+    pub fn raw(&self) -> &sys::Editor {
+        &self.0
+    }
 }
 
 #[derive(Default, Debug, Clone)]
