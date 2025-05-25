@@ -1,5 +1,3 @@
-#![doc = include_str!("../../README.md")]
-
 use derive_more::From;
 use wasm_bindgen::prelude::*;
 
